@@ -1,5 +1,5 @@
  url = https://katalon-demo-cura.herokuapp.com/
  browser = chrome
  
- username = John Doe1
+ username = John Doe
  password = ThisIsNotAPassword

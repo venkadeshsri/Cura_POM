@@ -58,19 +58,24 @@ public void intilization() throws IOException
 	   
    }
 
+/*
 public void failed() throws IOException
 {
 	try {
 	File srcfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	FileUtils.copyFile(srcfile, new File("D:\\ECLIPSE - Automation\\Automation-Selenium\\Cura_POM\\screenshots\\" +
 	"Failed Screen_"+ System.currentTimeMillis()+"_" +".jpg" ));
+	
 	}
 	catch (IOException e)
 	{
 		e.printStackTrace();
-	} 
+	}
+	// return null;
+	
+	
 
-}	
+}	*/
 
 public void logger()
 {
@@ -78,5 +83,5 @@ public void logger()
 	log.warn("Hey this just a warning message");
 	log.fatal("hey this is just fatal error message");
 	log.debug("this is debug message");
-} 
+}
 }
